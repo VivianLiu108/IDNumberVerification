@@ -38,7 +38,7 @@ def checkLength(P):
 def showmsg():
     if lsum != 0:
         if lsum % 10 == 0:
-            label.config(text = "Correct")
+            label.config(text = "Correct", fg = "blue")
         else:
             label.config(text = "Incorrect", fg = "red")
 
